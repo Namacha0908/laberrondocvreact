@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    .accueil {
+        background-color: #e5e5f7;
+        background-image: radial-gradient(circle at center center, #F7ECDE, #e5e5f7),
+            repeating-radial-gradient(circle at center center, #F7ECDE, #F7ECDE, 37px, transparent 74px, transparent 37px);
+        background-blend-mode: multiply;
+        height: 100vh;
+
+        .profil-picture {
+            padding-top: 50px;
+            text-align: center;
+
+            .image-ronde-bg {
+                margin-top: 30px;
+                background-size: cover;
+                background-position: 50% 50%;
+                background-image: url(../../img/theo.jpg);
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                border: none;
+                -moz-border-radius: 150px;
+                -webkit-border-radius: 150px;
+                border-radius: 150px;
+            }
+        }
+
+        .card-name {
+            text-align: center;
+
+            padding-top: 250px;
+
+            h1 {
+                font-size: 80px;
+            }
+        }
+    }
+}

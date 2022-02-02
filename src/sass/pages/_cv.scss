@@ -1,0 +1,59 @@
+#cv {
+    .photo {
+        // min-height: 500px;
+        background-color: #e5e5f7;
+        opacity: 1;
+        background: repeating-linear-gradient(45deg, #54BAB9, #54BAB9 20px, #e5e5f7 20px, #e5e5f7 100px);
+
+        .profil-picture {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+
+            .image-ronde-bg {
+                background-size: cover;
+                background-position: 50% 50%;
+                background-image: url(../../img/theo.jpg);
+                display: inline-block;
+                width: 400px;
+                height: 400px;
+                border: none;
+                -moz-border-radius: 150px;
+                -webkit-border-radius: 150px;
+                border-radius: 150px;
+            }
+        }
+    }
+
+    #some-infos {
+        background-color: #e5e5f7;
+        opacity: 1;
+        background-image: linear-gradient(135deg, #C1DEAE 25%, transparent 25%),
+            linear-gradient(225deg, #C1DEAE 25%, transparent 25%),
+            linear-gradient(45deg, #C1DEAE 25%, transparent 25%),
+            linear-gradient(315deg, #C1DEAE 25%, #e5e5f7 25%);
+        background-position: 40px 0,
+            40px 0,
+            0 0,
+            0 0;
+        background-size: 80px 80px;
+        background-repeat: repeat;
+        text-align: center;
+
+        h1 {
+            font-size: 80px;
+        }
+
+        h2 {
+            font-size: 70px;
+        }
+
+        h3 {
+            font-size: 60px;
+        }
+
+        h4 {
+            font-size: 50px;
+        }
+    }
+}
