@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <nav class="navbar">
             <div class="brand-title">Théo Laberrondo</div>
-            <a href="#" class="toggle-button">
+            <a href="/" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
