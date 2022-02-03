@@ -13,45 +13,45 @@ import Projet7 from "../img/7.jpg";
 const Projet = () => {
 
    const ProjetMap = [{
-      nom: 'Chef de projet',
+      nom: 'Assistant chef de projet',
       description: 'SpaceX',
-      url: 'Tesla',
+      url: '/',
       image: Projet1
    },
    {
       nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      description: 'Apple',
+      url: '/',
       image: Projet2
    },
    {
       nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      description: 'Apple',
+      url: '/',
       image: Projet3
    },
    {
       nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      description: 'KFC',
+      url: '/',
       image: Projet4
    },
    {
-      nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      nom: 'Coiffeur',
+      description: 'AlHairLibre',
+      url: '/',
       image: Projet5
    },
    {
       nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      description: "Cité de l'Espace",
+      url: '/',
       image: Projet6
    },
    {
-      nom: 'Chef de projet',
-      description: 'SpaceX',
-      url: 'Tesla',
+      nom: 'Stagiaire',
+      description: 'Dreamliner',
+      url: 'https://todo.dreamliner.fr/',
       image: Projet7
    }]
 

@@ -1,3 +1,6 @@
+// composant diplôme 
+
+
 const Diplome = ({diplome, annee}) => {
     return ( 
         <div>
