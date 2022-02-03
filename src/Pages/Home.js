@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Nav from "../Components/Nav";
 import '../sass/pages/_home.scss';
 
