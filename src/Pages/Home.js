@@ -7,9 +7,6 @@ const Home = () => {
         <section id="home">
             <Nav></Nav>
             <div class="accueil">
-                {/* <div class="profil-picture">
-                    <span class="image-rond image-ronde-bg"></span>
-                </div> */}
                 <div class="card-name">
                     <h1>Théo Laberrondo</h1>
                     <h2>IIM A3 Développement Web</h2>

@@ -39,6 +39,7 @@
         background-size: 80px 80px;
         background-repeat: repeat;
         text-align: center;
+        min-height: 50vh;
 
         h1 {
             font-size: 80px;
@@ -55,5 +56,167 @@
         h4 {
             font-size: 50px;
         }
+
+        h5 {
+            font-size: 40px;
+        }
+
+
+
+    }
+
+    #about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 4px),
+            repeating-linear-gradient(#E9DAC155, #E9DAC1);
+        min-height: 55vh;
+
+
+        .title {
+            margin-top: 100px;
+
+
+            font-size: 50px;
+        }
+
+        .content-about {
+            max-width: 500px;
+
+
+
+            p {
+                font-size: 25px;
+
+            }
+        }
+    }
+
+    #experiences {
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image: repeating-linear-gradient(45deg, #FBF8F1 25%, transparent 25%, transparent 75%, #FBF8F1 75%, #FBF8F1),
+            repeating-linear-gradient(45deg, #FBF8F1 25%, #e5e5f7 25%, #e5e5f7 75%, #FBF8F1 75%, #FBF8F1);
+        background-position: 0 0,
+            4px 4px;
+        background-size: 8px 8px;
+        text-align: center;
+
+        .contain-experiences {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        h2 {}
+
+        .experience {
+            background-color: #F7ECDE;
+            padding: 2%;
+            margin: 3%;
+            width: 250px;
+        }
+    }
+
+    #formations {
+        text-align: center;
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image: linear-gradient(30deg, #FFCBCB 12%, transparent 12.5%, transparent 87%, #FFCBCB 87.5%, #FFCBCB),
+            linear-gradient(150deg, #FFCBCB 12%, transparent 12.5%, transparent 87%, #FFCBCB 87.5%, #FFCBCB),
+            linear-gradient(30deg, #FFCBCB 12%, transparent 12.5%, transparent 87%, #FFCBCB 87.5%, #FFCBCB),
+            linear-gradient(150deg, #FFCBCB 12%, transparent 12.5%, transparent 87%, #FFCBCB 87.5%, #FFCBCB),
+            linear-gradient(60deg, #FFCBCB77 25%, transparent 25.5%, transparent 75%, #FFCBCB77 75%, #FFCBCB77),
+            linear-gradient(60deg, #FFCBCB77 25%, transparent 25.5%, transparent 75%, #FFCBCB77 75%, #FFCBCB77);
+        background-size: 20px 35px;
+        background-position: 0 0,
+            0 0,
+            10px 18px,
+            10px 18px,
+            0 0,
+            10px 18px;
+
+        .contain-formations {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .formation {
+            background-color: #96C7C1;
+            padding: 2%;
+            margin: 3%;
+            width: 250px;
+        }
+    }
+
+    #skills {
+        text-align: center;
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image: radial-gradient(#F3C5C5 2px, #e5e5f7 2px);
+        background-size: 40px 40px;
+
+        .contain-skills {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #694E4E;
+            padding: 2%;
+            margin: 3%;
+            width: 250px;
+        }
+    }
+
+    #diplomes {
+        text-align: center;
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent),
+            radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 60px 60px,
+            linear-gradient(#F90716 4.800000000000001px, transparent 4.800000000000001px) 0 -2.4000000000000004px,
+            linear-gradient(90deg, #F90716 4.800000000000001px, #e5e5f7 4.800000000000001px) -2.4000000000000004px 0;
+        background-size: 120px 120px,
+            120px 120px,
+            60px 60px,
+            60px 60px;
+
+        .contain-diplomes {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .diplome {
+            background-color: #FFF323;
+            padding: 2%;
+            margin: 3%;
+            width: 250px;
+        }
+    }
+
+
+
+}
+
+
+@media (min-width: 800px) {
+    .content-about {
+        margin-top: 200px;
+        margin-bottom: 50px;
+        padding-left: 55px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content-about {
+        margin-top: 100px;
     }
 }

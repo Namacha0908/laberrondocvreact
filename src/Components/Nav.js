@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return (
         <nav class="navbar">
-            <div class="brand-title">Brand Name</div>
+            <div class="brand-title">Théo Laberrondo</div>
             <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
