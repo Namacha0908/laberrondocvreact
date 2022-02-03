@@ -37,7 +37,7 @@ const Projet = () => {
       image: Projet4
    },
    {
-      nom: 'Coiffeur',
+      nom: 'Coiffeur de chef de projet',
       description: 'AlHairLibre',
       url: '/',
       image: Projet5
@@ -49,7 +49,7 @@ const Projet = () => {
       image: Projet6
    },
    {
-      nom: 'Stagiaire',
+      nom: 'Stagiaire chef de projet',
       description: 'Dreamliner',
       url: 'https://todo.dreamliner.fr/',
       image: Projet7
