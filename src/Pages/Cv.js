@@ -4,63 +4,15 @@ import Experience from "../Components/Experience";
 import Formation from "../Components/Formation";
 import Skill from "../Components/Skill";
 import Diplome from "../Components/Diplome";
+import ExperienceMap from "../data/ExperienceMap";
+import FormationMap from "../data/FormationMap";
+import SkillMap from "../data/SkillMap";
+import DiplomeMap from "../data/DiplomeMap";
 import '../sass/pages/_cv.scss';
 
 
 
 const Cv = () => {
-
-
-    const ExperienceMap = [{
-    poste: 'Chef de projet',
-    entreprise: 'SpaceX',
-    mission: 'Tesla',
-    duree: '6 mois'
-  },{
-    poste: 'Développeur Full Stack',
-    entreprise: 'Riot',
-    mission: 'Architecture réseau',
-    duree: '2 mois'
-  },{
-    poste: 'Chef de projet',
-    entreprise: 'SpaceX',
-    mission: 'Tesla',
-    duree: '6 mois'
-  },{
-    poste: 'Chef de projet',
-    entreprise: 'SpaceX',
-    mission: 'Tesla',
-    duree: '6 mois'
-  },{
-    poste: 'Chef de projet',
-    entreprise: 'SpaceX',
-    mission: 'Tesla',
-    duree: '6 mois'
-  },]
-    const FormationMap = [{
-    ecole: 'IIM',
-    annee: '2019-2022',
-    specialite: 'Dev Web',
-  },{
-    ecole: '42',
-    annee: '2017-2018',
-    specialite: 'Développeur',
-  },{
-    ecole: 'Fac de Droit de Bayonne',
-    annee: '2016-2018',
-    specialite: 'Droit pénal',
-  },]
-  const SkillMap =[{
-      nom: 'PHP',
-      niveau: 'intermédiaire'
-  },{
-      nom: 'REACT',
-      niveau: 'Débutant',
-  },]
-  const DiplomeMap = [{
-      diplome:'BAC',
-      annee:'2017',
-  }]
 
     return ( 
         <section id="cv">
