@@ -1,4 +1,5 @@
 import Nav from "../Components/Nav";
+import Footer from "../Components/Footer";
 import Experience from "../Components/Experience";
 import Formation from "../Components/Formation";
 import Skill from "../Components/Skill";
@@ -156,6 +157,7 @@ const Cv = () => {
                         }
                 </div>
             </section>
+            <Footer></Footer>
         </section>
      );
 }

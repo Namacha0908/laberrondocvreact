@@ -1,4 +1,5 @@
 import Nav from "../Components/Nav";
+import Footer from "../Components/Footer";
 import '../sass/pages/_home.scss';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
                     <h2>IIM A3 Développement Web</h2>
                 </div>
             </div>
+            <Footer></Footer>
         </section>
     );
 }

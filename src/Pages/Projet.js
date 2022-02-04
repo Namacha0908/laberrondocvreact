@@ -1,5 +1,6 @@
 import '../sass/pages/_projet.scss';
 import Nav from "../Components/Nav";
+import Footer from "../Components/Footer";
 import Project from "../Components/Project";
 import Projet1 from "../img/1.jpg";
 import Projet2 from "../img/2.jpg";
@@ -75,6 +76,7 @@ const Projet = () => {
                         }
                 </div>
             </section>
+            <Footer></Footer>
         </section>
      );
 }
