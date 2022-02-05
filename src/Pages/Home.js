@@ -2,7 +2,12 @@ import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 import '../sass/pages/_home.scss';
 
+
+
+
+
 const Home = () => {
+  
     return ( 
         <section id="home">
             <Nav></Nav>
