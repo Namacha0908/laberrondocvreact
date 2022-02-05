@@ -8,6 +8,18 @@ const SingleQuestion = ({question, next}) => {
             next(false)
         }
     }
+    
+   const shuffleArray = (array) => {
+        let new_arr = [];
+        while (new_arr.length < array.length) {
+            let random_item = array[Math.floor(Math.random() * (array.length))];
+            if (!new_arr.includes(random_item)) { new_arr.push(random_item) }
+        }
+        return new_arr
+    }
+
+    question.answers = shuffleArray(question.answers)
+    
     return ( 
         <section id="single-question">
             <h2>{question.title}</h2>

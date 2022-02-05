@@ -15,7 +15,7 @@ const Quizz = () => {
     return ( 
         <section id="quizz">
             <Nav></Nav>
-            <div>
+            <div class="contain-quizz">
                 <h1>Quelques Quizz !</h1>
                   {
                             quizzs.map((data, index) => (

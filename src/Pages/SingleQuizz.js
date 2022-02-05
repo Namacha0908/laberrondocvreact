@@ -23,15 +23,17 @@ const SingleQuizz = () => {
             setScore(score + 1);
         }
         setCurrentQuestion(currentQuestion + 1);
+        console.log(currentQuestion)
     }
     return ( 
-        <section id="quizz">
+        <section id="singleQuizz">
             <Nav></Nav>
             {quizz ?
-            <div>
+            <div class="single-quizz">
                 <h1>Quizz numero {id}</h1>
-                <SingleQuestion question={quizz.questions[currentQuestion]} next={next}></SingleQuestion>
-
+                { currentQuestion < quizz.questions.length ?
+                            <SingleQuestion question={quizz.questions[currentQuestion]} next={next}></SingleQuestion>
+                : <div> {score} / 10</div>}
             </div> : null}            
             <Footer></Footer>
         </section>
@@ -39,3 +41,6 @@ const SingleQuizz = () => {
 }
  
 export default SingleQuizz;
+
+
+    // {if (currentQuestion < quizz.questions.length)
