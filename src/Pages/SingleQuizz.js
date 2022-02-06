@@ -17,7 +17,7 @@ const SingleQuizz = () => {
 
     useEffect (() => {
         setQuizz(QuizzData.getDATA(id));
-    });
+    }, [id]);
     const next = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
