@@ -26,15 +26,48 @@
     a {
         padding: 15px;
         text-decoration: none;
+        color: #5800FF;
     }
 
-   
+
 }
 
- #singleQuizz {
-     .single-quizz {
-         padding-top: 50px;
-         text-align: center;
-         min-height: 100vh;
-     }
- }
+#singleQuizz {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#4C0027 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
+    background-size: 24px 24px;
+
+    .single-quizz {
+
+        padding-top: 50px;
+        text-align: center;
+        min-height: 100vh;
+
+        h1 {
+            font-size: 75px;
+        }
+        .result {
+            font-size: 45px;
+        }
+        a {
+            padding: 15px;
+            color:#5800FF;
+            text-decoration: none;
+        }
+
+    }
+}
+
+#single-question {
+    .oneQuestion {
+        width: 350px;
+        background-color: white;
+        margin: 0 auto;
+        border-style: solid;
+        margin-top: 50px;
+        p {
+            padding: 20px;
+        }
+    }
+}

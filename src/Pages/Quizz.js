@@ -3,7 +3,6 @@ import Footer from "../Components/Footer";
 import '../sass/pages/_quizz.scss';
 import QuizzData from "../data/QuizzData"
 import CardQuizz from "../Components/CardQuizz";
-import {useParams} from "react-router-dom";
 
 
 

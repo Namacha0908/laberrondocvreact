@@ -2,10 +2,10 @@ import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 import '../sass/pages/_quizz.scss';
 import QuizzData from "../data/QuizzData"
-import CardQuizz from "../Components/CardQuizz";
 import {useParams} from "react-router-dom";
 import {useEffect , useState} from "react";
 import SingleQuestion from "../Components/SingleQuestion";
+import {Link} from "react-router-dom"
 
 
 const SingleQuizz = () => {
@@ -33,7 +33,11 @@ const SingleQuizz = () => {
                 <h1>Quizz numero {id}</h1>
                 { currentQuestion < quizz.questions.length ?
                             <SingleQuestion question={quizz.questions[currentQuestion]} next={next}></SingleQuestion>
-                : <div> {score} / 10</div>}
+                : <div> 
+                    <p class="result">Résultats {score} / 10</p>
+                     <Link to={`/quizz`}><h2>Recommencer !</h2></Link>
+                     <Link to={`/`}><h2>Revenir à l'accueil !</h2></Link>
+                </div>}
             </div> : null}            
             <Footer></Footer>
         </section>
@@ -41,6 +45,3 @@ const SingleQuizz = () => {
 }
  
 export default SingleQuizz;
-
-
-    // {if (currentQuestion < quizz.questions.length)

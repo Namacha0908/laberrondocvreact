@@ -1,6 +1,6 @@
 const SingleQuestion = ({question, next}) => {
     const verify = (answer) => {
-        if (answer == question.correct)
+        if (answer === question.correct)
         {
             next(true)
         }
@@ -19,13 +19,13 @@ const SingleQuestion = ({question, next}) => {
     }
 
     question.answers = shuffleArray(question.answers)
-    
+
     return ( 
         <section id="single-question">
             <h2>{question.title}</h2>
                {
                     question.answers.map((answer, index) => (
-                    <div key={index} class="diplome">
+                    <div key={index} class="oneQuestion">
                     <p onClick={() => verify(answer)}>{answer}</p>
                             </div>
                             ))

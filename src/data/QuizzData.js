@@ -311,7 +311,7 @@ const QuizzData = {
         return DATAS
     },
     getDATA(id) {
-        return DATAS.find(q =>q.id == id)
+        return DATAS.find(q =>q.id === id)
     }
 }
 export default QuizzData
